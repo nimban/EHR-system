@@ -1,0 +1,4 @@
+select b.patient_id, b.adm_id, b.date_time, d.doctor_id, d.diagnosis_name as diagnosis, m.name as medication, p.name as procedure, s.cost
+from billing b
+left outer join medication m on (b.service_id = m.medication_id)
+left outer join procedure p on (b.service_id = p.procedure_id)

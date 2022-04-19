@@ -1,0 +1,33 @@
+Hospital Records Management System
+
+COMS W4111.001-Introduction to Databases
+Fall 2021
+Project 1
+
+Authors: Niranjan Nimbargi (nn2497), Mausam Agarwal (msa2213)
+
+Postgre Account: msa2213
+
+URL: http://35.196.114.121:8111/patient_view
+
+GitHub: https://github.com/mausam2906/w4111-proj1
+
+
+OVERVIEW
+
+This is an application for managing Hospital records including Patient Details,
+Employee information (for doctors and nurses), and billing/admission records
+including information about patient diagnosis, medications, procedures etc
+and the associated billing records.
+
+Some of the pages in the webapp include:
+- Admissions/Billing
+        This is a consolidated view of all patients records mapped to the diagnosis of
+        their condition, the doctor seeing, procedures performed, medications prescribed and
+        the associated bill for each of these. It also allows admins or doctors to filter
+        records based on patient or condition/meds etc which can be used to analyse how often
+        different conditions occur etc.
+- Patient Records
+        This page is used by administrators to manage patient records. All patient records are
+        retrieved by default which can then be filtered based on any of the values/attributes.
+        It also allows adding/deleting of patient records.
